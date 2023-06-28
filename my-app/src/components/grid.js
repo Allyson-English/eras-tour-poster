@@ -86,17 +86,21 @@ function Grid() {
       <div id="how-to-use">
         <h1>Personalize Your Eras Tour Poster</h1> Click on each square below to
         add a photo and create your own Era's Tour Poster. <br /> <br /> For
-        best results, use&nbsp;
+        best results, use a photo with no background (learn how to select the
+        subject from an iPhone photo &nbsp;
         <a
           target="_blank"
           rel="noreferrer"
           href="https://support.apple.com/guide/iphone/lift-a-subject-from-the-photo-background-iphfe4809658/ios"
         >
-          this link
+          here)
         </a>
-        &nbsp;to select the subject of a photo from your phone. <br /> <br />
+        &nbsp;
+        <br /> <br />
         If you're having trouble changing the photo in the correct square, try
         clicking closer to the outside edge of the square.
+        <br /> <br />
+        Once you're done, click the button below to download your poster.
       </div>
 
       <button id="my-eras-button" onClick={downloadImage}>
