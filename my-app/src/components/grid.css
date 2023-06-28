@@ -1,0 +1,194 @@
+html {
+  width: 1000px;
+  margin: auto;
+  background: #e7e3de;
+}
+
+.eras-export {
+  display: float;
+  /* margin-top: 5%; */
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+  height: 60em;
+  width: 100%;
+  /* background-color: black; */
+  /* z-index: 999; */
+  margin-bottom: 5%;
+  /* border: solid rgb(255, 1, 204) 3px; */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: rcard_classepeat(3, 1fr);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 3px;
+  grid-template-columns: repeat(3, 1fr);
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  background-color: black;
+}
+
+.cardCenter {
+  filter: sepia(27%) saturate(1446%) hue-rotate(192deg) brightness(90%)
+    contrast(90%);
+  min-width: 175%;
+  min-height: 120%;
+  margin-top: -43%;
+  /* margin-bottom: calc(124% - 1px); */
+  display: flex;
+  z-index: 99;
+  /* border: solid black 3px; */
+}
+
+#cardCenter {
+  background-color: #232a4c;
+}
+
+.card1 {
+  filter: sepia(7%) saturate(737%) hue-rotate(54deg) brightness(93%)
+    contrast(90%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#card1 {
+  background-color: #cae1c3;
+}
+
+.card2 {
+  filter: sepia(46%) saturate(1241%) hue-rotate(317deg) brightness(99%)
+    contrast(97%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#card2 {
+  background-color: #f9dc94;
+}
+
+.card3 {
+  filter: sepia(13%) saturate(412%) hue-rotate(243deg) brightness(105%)
+    contrast(80%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#card3 {
+  background-color: #dac1e0;
+}
+
+.card4 {
+  filter: sepia(33%) saturate(722%) hue-rotate(303deg) brightness(88%)
+    contrast(86%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#card4 {
+  background-color: #b6606b;
+}
+
+.card6 {
+  filter: sepia(92%) saturate(3027%) hue-rotate(174deg) brightness(106%)
+    contrast(98%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#card6 {
+  background-color: #cdf0fc;
+}
+
+.card7 {
+  filter: sepia(10%) saturate(213%) hue-rotate(286deg) brightness(90%)
+    contrast(85%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#card7 {
+  background-color: #7d7578;
+}
+
+.card9 {
+  filter: sepia(22%) saturate(6315%) hue-rotate(283deg) brightness(107%)
+    contrast(92%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#card9 {
+  background-color: #f5c2da;
+}
+
+.card10 {
+  filter: sepia(0%) saturate(5423%) hue-rotate(172deg) brightness(91%)
+    contrast(110%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#card10 {
+  background-color: #ddd9d4;
+}
+
+.card12 {
+  filter: sepia(32%) saturate(224%) hue-rotate(352deg) brightness(87%)
+    contrast(97%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#card12 {
+  background-color: #dbc3a4;
+}
+
+.grid_item:first-child {
+  grid-column: 2 / 2; /* span from grid column line 1 to 3 (i.e., span 2 columns) */
+  grid-row: 2 / 5; /* same concept, but for rows */
+}
+
+/* non-essential decorative styles */
+.grid_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+}
+
+#my-eras-button {
+  margin-left: 43%;
+  background-color: rgb(238, 10, 185);
+  border-radius: 5%;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(219, 106, 189, 0.19);
+  cursor: pointer;
+  margin-bottom: 2%;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+#how-to-use {
+  font-family: "IBM Plex Mono", monospace;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
