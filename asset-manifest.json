@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eras-tour-poster/static/css/main.41ccb521.css",
+    "main.js": "/eras-tour-poster/static/js/main.c852c947.js",
+    "static/js/787.28cb0dcd.chunk.js": "/eras-tour-poster/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/eras-tour-poster/index.html",
+    "main.41ccb521.css.map": "/eras-tour-poster/static/css/main.41ccb521.css.map",
+    "main.c852c947.js.map": "/eras-tour-poster/static/js/main.c852c947.js.map",
+    "787.28cb0dcd.chunk.js.map": "/eras-tour-poster/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41ccb521.css",
+    "static/js/main.c852c947.js"
+  ]
+}
