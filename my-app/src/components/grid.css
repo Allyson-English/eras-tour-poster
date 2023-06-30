@@ -1,7 +1,7 @@
 html {
   width: 1000px;
   margin: auto;
-  background: #e7e3de;
+  background: #d9d5d1;
 }
 
 .eras-export {
@@ -33,7 +33,7 @@ html {
 }
 
 .cardCenter {
-  filter: sepia(27%) saturate(1446%) hue-rotate(192deg) brightness(90%)
+  filter: sepia(42%) saturate(150%) hue-rotate(200deg) brightness(95%)
     contrast(90%);
   min-width: 175%;
   min-height: 120%;
@@ -49,7 +49,7 @@ html {
 }
 
 .card1 {
-  filter: sepia(7%) saturate(737%) hue-rotate(54deg) brightness(93%)
+  filter: sepia(70%) saturate(50%) hue-rotate(54deg) brightness(93%)
     contrast(90%);
   min-width: 100%;
   min-height: 100%;
@@ -60,7 +60,7 @@ html {
 }
 
 .card2 {
-  filter: sepia(46%) saturate(1241%) hue-rotate(317deg) brightness(99%)
+  filter: sepia(70%) saturate(200%) hue-rotate(350deg) brightness(99%)
     contrast(97%);
   min-width: 100%;
   min-height: 100%;
@@ -71,7 +71,7 @@ html {
 }
 
 .card3 {
-  filter: sepia(13%) saturate(412%) hue-rotate(243deg) brightness(105%)
+  filter: sepia(70%) saturate(200%) hue-rotate(243deg) brightness(105%)
     contrast(80%);
   min-width: 100%;
   min-height: 100%;
@@ -82,7 +82,7 @@ html {
 }
 
 .card4 {
-  filter: sepia(33%) saturate(722%) hue-rotate(303deg) brightness(88%)
+  filter: sepia(70%) saturate(200%) hue-rotate(303deg) brightness(88%)
     contrast(86%);
   min-width: 100%;
   min-height: 100%;
@@ -93,7 +93,7 @@ html {
 }
 
 .card6 {
-  filter: sepia(92%) saturate(3027%) hue-rotate(174deg) brightness(106%)
+  filter: sepia(92%) saturate(100%) hue-rotate(174deg) brightness(106%)
     contrast(98%);
   min-width: 100%;
   min-height: 100%;
@@ -104,8 +104,8 @@ html {
 }
 
 .card7 {
-  filter: sepia(10%) saturate(213%) hue-rotate(286deg) brightness(90%)
-    contrast(85%);
+  filter: sepia(70%) saturate(0%) hue-rotate(354deg) brightness(70%)
+    contrast(99%);
   min-width: 100%;
   min-height: 100%;
 }
@@ -115,8 +115,8 @@ html {
 }
 
 .card9 {
-  filter: sepia(22%) saturate(6315%) hue-rotate(283deg) brightness(107%)
-    contrast(92%);
+  filter: sepia(70%) saturate(100%) hue-rotate(230deg) brightness(130%)
+    contrast(80%);
   min-width: 100%;
   min-height: 100%;
 }
@@ -126,8 +126,8 @@ html {
 }
 
 .card10 {
-  filter: sepia(0%) saturate(5423%) hue-rotate(172deg) brightness(91%)
-    contrast(110%);
+  filter: sepia(70%) saturate(0%) hue-rotate(354deg) brightness(100%)
+    contrast(89%);
   min-width: 100%;
   min-height: 100%;
 }
@@ -137,8 +137,8 @@ html {
 }
 
 .card12 {
-  filter: sepia(32%) saturate(224%) hue-rotate(352deg) brightness(87%)
-    contrast(97%);
+  filter: sepia(70%) saturate(90%) hue-rotate(00deg) brightness(100%)
+    contrast(93%);
   min-width: 100%;
   min-height: 100%;
 }

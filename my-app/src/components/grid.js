@@ -3,11 +3,11 @@ import React, { useRef, useState } from "react";
 import Resizer from "react-image-file-resizer";
 import * as htmlToImage from "html-to-image";
 
-const smallImageHeight = 230;
-const smallImageWidth = 200;
+const smallImageHeight = 275;
+const smallImageWidth = 245;
 
-const centerImageHeight = smallImageHeight * 4;
-const centerImageWidth = smallImageWidth * 4;
+const centerImageHeight = smallImageHeight * 3.1;
+const centerImageWidth = smallImageWidth * 3.1;
 
 const resizeFileSmallGrid = (file, height, width) =>
   new Promise((resolve) => {
@@ -85,17 +85,17 @@ function Grid() {
     <>
       <div id="how-to-use">
         <h1>Personalize Your Eras Tour Poster</h1> Click on each square below to
-        add a photo and create your own Era's Tour Poster. <br /> <br /> For
-        best results, use a photo with no background (learn how to select the
-        subject from an iPhone photo &nbsp;
+        add a photo and create your own Era's Tour Poster. <br /> <br /> To
+        really make the poster ✨shimmer✨ use a black and white photo with no
+        background. You can learn how to select the subject from an iPhone photo
+        &nbsp;
         <a
           target="_blank"
           rel="noreferrer"
           href="https://support.apple.com/guide/iphone/lift-a-subject-from-the-photo-background-iphfe4809658/ios"
         >
-          here)
+          here.
         </a>
-        &nbsp;
         <br /> <br />
         If you're having trouble changing the photo in the correct square, try
         clicking closer to the outside edge of the square.
